@@ -113,6 +113,14 @@
         border: 3.5px solid darkviolet;
         line-height: 218px;
     }
+    #button{
+        width: 80px;
+        height: 40px;
+        
+        color:coral;
+        background-color: yellow;
+        font-size: 20px;
+    }
     
 </style>
 
@@ -147,6 +155,21 @@
             <div class="kwadrat" id="port1">Portfolio1</div><br>
             <div class="kwadrat" id="port2">Portfolio2</div><br>
             <div class="kwadrat" id="port3">Portfolio3</div><br>
+            
+
+        </div>
+        <div id="contact">
+           <footer>
+               <h1>Karol Wawer</h1>
+                <p>mail: karol.wawer.pl@gmail.com</p>
+                <p>tel. +48 694 422 519</p>
+            </footer>
+            <form action="mailto:karol.wawer.pl@gmail.com" method="post" enctype="text/plain">
+           <label>Imię </label><input name="Imię" placeholder="Jan Kowalski" required>
+           <label>Temat </label><input name="Temat" placeholder="Wsółpraca" required><br><br>
+           <textarea name="wiadomość" id="wiadomość" cols="53" rows="10" placeholder="Wpisz wiadomość" required></textarea>
+           <button id="button" type="submit" value="Wyślij">Wyślij</button>
+            </form>
         </div>
     </div>
            
